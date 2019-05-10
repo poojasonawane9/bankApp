@@ -58,7 +58,7 @@ public abstract class BankAccount implements BankSpecification {
 	@Override
 	public String toString() {
 		return "BankAccount [accId=" + accId + ", accHolderName=" + accHolderName + ", accType=" + accType
-				+ ", balance=" + balance + "]";
+				+ ", balance=" + balance + "]";                                 //getter setters added
 	}
 	
 	static {
